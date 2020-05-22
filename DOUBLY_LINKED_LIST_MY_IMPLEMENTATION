@@ -36,7 +36,7 @@ void insertNode(int x)
     
 }
 
-void printForward(struct Node *temp)
+void printForward(struct Node *temp)            /* Functions for printing linked list in forward direction */
 {
     while(temp!=NULL)
     {
@@ -46,7 +46,7 @@ void printForward(struct Node *temp)
     printf("\n");
 }
 
-void printBackward(struct Node *temp)
+void printBackward(struct Node *temp)            /* Functions for printing linked list in backward direction */
 {
    while(temp!=NULL) 
    {
