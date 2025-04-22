@@ -8,6 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
     ListNode* reverseRecursive(ListNode* current, ListNode* prev) {
         if (!current) return prev;
